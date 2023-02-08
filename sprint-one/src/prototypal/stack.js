@@ -4,7 +4,6 @@ var Stack = function() {
   var newInstance = Object.create(stackMethods);
   newInstance.storage = {};
   newInstance.top = 0;
-  newInstance.bottom = 0;
   return newInstance;
 };
 

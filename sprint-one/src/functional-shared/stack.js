@@ -3,8 +3,7 @@ var Stack = function() {
   // but try not not reference your old code in writing the new style.
   var instance = {
     storage: {},
-    top: 0,
-    bottom: 0
+    top: 0
   };
   _.extend(instance, stackMethods);
   return instance;
